@@ -4,3 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+gpui = { path = "../zed/crates/gpui" }
+
+[lib]
+name = "gpui_experiments"
+path = "src/lib.rs"
+
+[[bin]]
+name = "counter"
+path = "experiments/counter.rs"
