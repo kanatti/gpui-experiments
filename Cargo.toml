@@ -13,3 +13,7 @@ path = "src/lib.rs"
 [[bin]]
 name = "counter"
 path = "experiments/counter.rs"
+
+[[bin]]
+name = "todo-list"
+path = "experiments/todo-list.rs"
